@@ -1,0 +1,30 @@
+24-08-21.14:13:20.742 [main            ] INFO  ApiTest                - Starting ApiTest using Java 1.8.0_341 on ZBMac-GV47H1GXD with PID 53221 (started by fuzhengwei1 in /Users/fuzhengwei1/Documents/develop/github/xfg-dev-tech-design-tree-01/xfg-dev-tech-design-tree-01-app)
+24-08-21.14:13:20.745 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
+24-08-21.14:13:23.571 [main            ] INFO  ApiTest                - Started ApiTest in 3.431 seconds (JVM running for 4.87)
+24-08-21.14:13:23.938 [main            ] INFO  RootNode               - 【入口节点】规则决策树 userId:xiaofuge
+24-08-21.14:13:23.939 [main            ] INFO  SwitchRoot             - 【开关节点】规则决策树 userId:xiaofuge
+24-08-21.14:13:23.940 [main            ] INFO  AccountNode            - 【账户节点】规则决策树 userId:xiaofuge
+24-08-21.14:13:23.940 [main            ] INFO  AccountNode            - 模拟查询用户级别 level:1
+24-08-21.14:13:23.940 [main            ] INFO  MemberLevel1Node       - 【级别节点-1】规则决策树 userId:xiaofuge
+24-08-21.14:13:24.130 [main            ] INFO  ApiTest                - 请求参数:{"switchState":"open","userId":"xiaofuge"}
+24-08-21.14:13:24.159 [main            ] INFO  ApiTest                - 测试结果:{"defaultStrategyHandler":{}}
+24-08-21.14:14:56.539 [main            ] INFO  ApiTest                - Starting ApiTest using Java 1.8.0_341 on ZBMac-GV47H1GXD with PID 53275 (started by fuzhengwei1 in /Users/fuzhengwei1/Documents/develop/github/xfg-dev-tech-design-tree-01/xfg-dev-tech-design-tree-01-app)
+24-08-21.14:14:56.541 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
+24-08-21.14:14:59.324 [main            ] INFO  ApiTest                - Started ApiTest in 3.359 seconds (JVM running for 4.522)
+24-08-21.14:14:59.691 [main            ] INFO  RootNode               - 【入口节点】规则决策树 userId:xiaofuge
+24-08-21.14:14:59.693 [main            ] INFO  SwitchRoot             - 【开关节点】规则决策树 userId:xiaofuge
+24-08-21.14:14:59.693 [main            ] INFO  AccountNode            - 【账户节点】规则决策树 userId:xiaofuge
+24-08-21.14:14:59.694 [main            ] INFO  AccountNode            - 模拟查询用户级别 level:1
+24-08-21.14:14:59.694 [main            ] INFO  MemberLevel1Node       - 【级别节点-1】规则决策树 userId:xiaofuge
+24-08-21.14:14:59.885 [main            ] INFO  ApiTest                - 请求参数:{"switchState":"open","userId":"xiaofuge"}
+24-08-21.14:14:59.898 [main            ] INFO  ApiTest                - 测试结果:{"level":1}
+24-08-21.14:16:00.405 [main            ] INFO  ApiTest                - Starting ApiTest using Java 1.8.0_341 on ZBMac-GV47H1GXD with PID 53314 (started by fuzhengwei1 in /Users/fuzhengwei1/Documents/develop/github/xfg-dev-tech-design-tree-01/xfg-dev-tech-design-tree-01-app)
+24-08-21.14:16:00.407 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
+24-08-21.14:16:03.549 [main            ] INFO  ApiTest                - Started ApiTest in 3.758 seconds (JVM running for 5.042)
+24-08-21.14:16:03.932 [main            ] INFO  RootNode               - 【入口节点】规则决策树 userId:xiaofuge
+24-08-21.14:16:03.936 [main            ] INFO  SwitchRoot             - 【开关节点】规则决策树 userId:xiaofuge
+24-08-21.14:16:03.937 [main            ] INFO  AccountNode            - 【账户节点】规则决策树 userId:xiaofuge
+24-08-21.14:16:03.937 [main            ] INFO  AccountNode            - 模拟查询用户级别 level:0
+24-08-21.14:16:03.937 [main            ] INFO  MemberLevel0Node       - 【级别节点-0】规则决策树 userId:xiaofuge
+24-08-21.14:16:04.123 [main            ] INFO  ApiTest                - 请求参数:{"switchState":"open","userId":"xiaofuge"}
+24-08-21.14:16:04.135 [main            ] INFO  ApiTest                - 测试结果:{"level":0}
